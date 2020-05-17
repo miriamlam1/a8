@@ -7,5 +7,5 @@ to run this, use putty or anything that you can connect usb to, idk
 4. open putty
 5. change connection type to serial
 6. change serial line to your COM
-7. load
-8. type your voltage out of 4096
+7. open
+8. type your voltage out of 4096 into the putty terminal
