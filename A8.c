@@ -50,7 +50,7 @@ uint8_t get_receive_flag(){
 }
 
 void EUSCIA0_IRQHandler(){
-    EUSCI_A0 -> IE &= ~EUSCI_A_IE_RXIE;   //enable receive interrupt
+    EUSCI_A0 -> IE &= ~EUSCI_A_IE_RXIE;   //disable receive interrupt (reenable after print)
     receive = 1;
 }
 
